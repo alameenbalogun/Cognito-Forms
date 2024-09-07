@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="flex justify-between p-4 items-center h-full">
+      <div class="flex justify-between items-center gap-1 px-3">
+        <img class="w-12 h-12" src="img/logo.PNG" alt="Logo" />
+        <h1 class="text-3xl font-bold">Cognito Forms</h1>
+      </div>
+      <nav class="hidden lg:flex items-center text-navColor font-gilroy p-4">
+        <ul class="flex gap-5 items-center text-[17px] px-3">
+          <li class="hover:border-b-[3px] border-navColor">
+            <a href="#">Product</a>
+          </li>
+          <li class="hover:border-b-[3px] border-navColor">
+            <a href="templates.html">Templates</a>
+          </li>
+          <li class="hover:border-b-[3px] border-navColor">
+            <a href="price.html">Pricing</a>
+          </li>
+          <li class="hover:border-b-[3px] border-navColor">
+            <a href="#">Resources</a>
+          </li>
+          <li><img src="img/search.PNG" alt="Search" /></li>
+          <button class="border-2 border-solid border-navColor p-2">
+            Log In
+          </button>
+          <button
+            class="border-2 border-solid bg-navColor border-navColor p-2 text-white font-bold"
+          >
+            Sign Up
+          </button>
+        </ul>
+      </nav>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="100"
+        height="100"
+        viewBox="0 0 50 50"
+        class="lg:hidden w-7 h-6"
+      >
+        <path
+          d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"
+        ></path>
+      </svg>
+    </header>
+
+    <section class="flex flex-col items-center h-[90vh] mt-8">
+      <p
+        class="text-navColor text-[25px] lg:text-[43px] text-center font-extralight"
+      >
+        A powerful no-code online form builder that automates the steps to
+      </p>
+      <div class="flex justify-between items-center">
+        <p
+          class="lg:text-[100px] text-[50px] text-movColor font-extra-bold flex items-center"
+        >
+          <span class="lg:text-[100px] uppercase">m</span>ove your work forward
+        </p>
+        <img class="h-[80px]" src="img/arrow.PNG" alt="Arrow" />
+      </div>
+      
+      <div class="flex gap-4">
+        <div class="flex gap-2 items-center">
+          <img class="h-[110px]" src="img/build.PNG" alt="Build" />
+          <div class="mt-9">
+            <h1 class="text-navColor text-[25px] font-bold">Build</h1>
+            <p class="text-headerColor text-[20px]">
+              effortless online forms as <br />unique as your process.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center">
+          <img class="h-[110px]" src="img/collect.PNG" alt="Build" />
+          <div class="mt-9">
+            <h1 class="text-navColor text-[25px] font-bold">Collect</h1>
+            <p class="text-headerColor text-[20px]">
+              consistent data from your <br />
+              customers and employees.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center">
+          <img class="h-[110px]" src="img/act.PNG" alt="Build" />
+          <div class="mt-9">
+            <h1 class="text-navColor text-[25px] font-bold">Act</h1>
+            <p class="text-headerColor text-[20px]">
+              at the right time with simple <br />
+              automatic notifications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="text-white flex bg-[#d85427] w-[320px] h-[60px] items-center justify-center font-bold text-[25px] mt-12"
+        href="#"
+        >Get Started</a
+      >
+      <p class="text-headerColor">
+        14-day free trial. No credit card required.
+      </p>
+    </section>
+
+    <section
+      class="h-[100vh] items-center justify-center w-auto mt-40 bg-custom-gradient relative border-b-2 border-navColor"
+    >
+      <div class="flex h-[30px] gap-[8rem] justify-center mb-11 cursor-pointer">
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="bg-navColor h-12 w-12 px-3 py-2 rounded-full"
+            >
+              <path
+                d="m1.5 1.5 10.15 2.45L12.7 9.2l-3.5 3.5-5.25-1.05L1.5 1.5Zm0 0 5.31 5.31M8.5 13.4l4.9-4.9 2.1 2.1-4.9 4.9-2.1-2.1Zm.7-5.6a1.4 1.4 0 1 1-2.8 0 1.4 1.4 0 0 1 2.8 0Z"
+                stroke="#fff"
+                stroke-width=".988"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="i-stroke"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-navColor text-[16px]">Signatures</p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="hover:bg-gray-300 hover:h-12 px-3 py-2 hover:rounded-full w-12 h-12"
+            >
+              <path
+                d="M4.125 10.5H6.75M2 6.5h13m-12.227-3h11.454c.703 0 1.273.56 1.273 1.25v7.5c0 .69-.57 1.25-1.273 1.25H2.773c-.703 0-1.273-.56-1.273-1.25v-7.5c0-.69.57-1.25 1.273-1.25Z"
+                stroke="#798f8f"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="i-stroke"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-black text-[16px]">Payement</p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="hover:bg-gray-300 hover:h-12 px-3 py-2 hover:rounded-full w-12 h-12"
+            >
+              <path
+                d="M9.5 1.5H4.333c-.46 0-.833.392-.833.875v1.377m6-2.252v4h4m-4-4 4 4m0 0v9.125c0 .483-.373.875-.833.875H4.333c-.46 0-.833-.392-.833-.875v-3.002"
+                stroke="#234652"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M2.247 6h4.795M4.196 9h4.3M6.613 12h3.58"
+                stroke="#234652"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-black text-[16px]">General Docs</p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="hover:bg-gray-300 hover:h-12 px-3 py-2 hover:rounded-full w-12 h-12"
+            >
+              <path
+                d="m13.5 10.5 1.998 2-1.998 2m0-12 2 2m0 0-2 2m2-2h-1.533c-2.837 0-5.435 1.636-6.343 4-.907 2.364-3.287 4.087-6.124 4.087m13.981-.087h-1.516c-1.838 0-3.573-.655-4.761-1.798M1.573 4.445c1.823 0 3.471.698 4.658 1.824"
+                stroke="#798f8f"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="i-stroke"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-black text-[16px]">Workflow</p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="hover:bg-gray-300 hover:h-12 px-3 py-2 hover:rounded-full w-12 h-12"
+            >
+              <path
+                d="M8.5 5.667c3.52 0 6.375-.952 6.375-2.125 0-1.174-2.854-2.125-6.375-2.125-3.52 0-6.375.951-6.375 2.125 0 1.173 2.854 2.125 6.375 2.125ZM14.875 8.5c0 1.176-2.833 2.125-6.375 2.125S2.125 9.675 2.125 8.5"
+                stroke="#234652"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M2.125 3.542v9.916c0 1.176 2.833 2.125 6.375 2.125s6.375-.949 6.375-2.125V3.542"
+                stroke="#234652"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-black text-[16px]">Data</p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <svg
+              viewBox="0 0 17 17"
+              fill="none"
+              class="hover:bg-gray-300 hover:h-12 px-3 py-2 hover:rounded-full w-12 h-12"
+            >
+              <path
+                d="M9.416 6.215H10.5a1.5 1.5 0 0 0 1.5-1.5V2.5A1.5 1.5 0 0 0 10.5 1h-4A1.5 1.5 0 0 0 5 2.5v2.215a1.5 1.5 0 0 0 1.5 1.5h1.151"
+                stroke="#234652"
+              ></path>
+              <path
+                d="M9.917 6.152v1.56c0 .88.518 2.076 1.591 2.076h2.903a.91.91 0 0 1 .91.91v2.804H1.68v-2.805a.91.91 0 0 1 .909-.909h2.97c1.369 0 1.592-1.196 1.592-2.075V6.152"
+                stroke="#234652"
+              ></path>
+              <path
+                d="M2.652 13v1.699a1 1 0 0 0 1 1h9.696a1 1 0 0 0 1-1v-1.7"
+                stroke="#234652"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-black text-[16px]">Approvals</p>
+        </div>
+      </div>
+      <div class="flex justify-center mb-11">
+        <img
+          class="border-2 border-navColor"
+          width="1100px"
+          src="img/signature-base.7e81caae4d5bfee94b77e7422a51307a.webp"
+          alt=""
+        />
+      </div>
+      <img
+        class="w-[400px] absolute bottom-3 right-[150px]"
+        src="img/signature-phone.c8a70b9c724dd8742889c7122ef83548.webp"
+        alt="Signature"
+      />
+      <img
+        class="relative top-[-53%] left-[170px]"
+        src="img/bindingSignature.PNG"
+        alt="Bindnng"
+      />
+    </section>
+
+    <section class="flex flex-col items-center justify-center h-[100vh]">
+      <h3
+        class="text-[ #234652 ] text-[1.953125rem] font-extra-bold font-gilroy mt-30 mb-[1.4rem]"
+      >
+        Increase productivity
+      </h3>
+      <h3 class="text-[1.5625rem] font-gilroy mb-[50px] text-[#234652]">
+        Move the work forward at lightning speed and unbelievable accuracy.
+      </h3>
+
+      <div class="w-[70vw] flex justify-between gap-7">
+        <div class="flex flex-col gap-2 items-center">
+          <div class="custom-circle">
+            <div class="custom-class-content">90%</div>
+          </div>
+          <p class="custom-class-p text-center">
+            90% are able to act quicker on incoming <br />
+            data/forms.
+          </p>
+        </div>
+        <div class="flex flex-col gap-2 items-center">
+          <div class="custom-circle">
+            <div class="custom-class-content">8</div>
+          </div>
+          <p class="custom-class-p">8 hours saved each week.</p>
+        </div>
+        <div class="flex flex-col gap-2 items-center">
+          <div class="custom-circle">
+            <div class="custom-class-content">80%</div>
+          </div>
+          <p class="custom-class-p text-center">
+            80% have more accurate, consistent, <br />
+            and complete data.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-[100vh] p-20">
+      <div class="flex p-7 gap-4 items-center">
+        <div>
+          <h2
+            class="text-[3.052rem] font-gilroy text-[#09a098] font-extra-bold"
+          >
+            The ultimate tool for every team
+          </h2>
+          <p class="text-[1.953rem] font-gilroy text-[#55727b]">
+            When off-the-shelf software doesn't suit your needs,<br />
+            customize Cognito Forms to be a perfect fit for your team.
+          </p>
+        </div>
+        <img
+          class="w-[350px] h-[350px] rounded-full"
+          src="img/human-resources-team.17c6f9c7ee0f3ce1d95e5e571dcbfe04.webp"
+          alt=""
+        />
+      </div>
+
+      <aside class="flex p-7 gap-20">
+        <div>
+          <ul class="text-[#55727b] font-extra-bold cursor-pointer text-[18px]">
+            <li
+              class="px-4 h-[50px] bg-navColor flex items-center w-[300px] justify-between text-white py-4"
+            >
+              Human Resources
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px]">
+                <path
+                  d="m5.5 2.5 6 6-6 6"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </li>
+            <li class="custom-nav hover:bg-[#f7fafa]">
+              Marketing
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px]">
+                <path
+                  d="m5.5 2.5 6 6-6 6"
+                  stroke="#55727b"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </li>
+            <li class="custom-nav hover:bg-[#f7fafa]">
+              Sales
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px]">
+                <path
+                  d="m5.5 2.5 6 6-6 6"
+                  stroke="#55727b"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </li>
+            <li class="custom-nav hover:bg-[#f7fafa]">
+              Information Technology
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px]">
+                <path
+                  d="m5.5 2.5 6 6-6 6"
+                  stroke="#55727b"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </li>
+            <li class="custom-nav hover:bg-[#f7fafa]">
+              Project Management
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px]">
+                <path
+                  d="m5.5 2.5 6 6-6 6"
+                  stroke="#55727b"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p
+            class="text-[#234652] text-[18px] font-extra-bold font-gilroy mb-4"
+          >
+            Having consistent and complete employee data allows you to serve
+            your workforce and provide talent management.
+          </p>
+          <p class="text-[1.563rem] font-gilroy text-[#234652] mb-8">
+            Focus on relationships, not moving paperwork along.
+          </p>
+          <div
+            class="w-[900px] grid-cols-2 grid gap-11 text-[#234652] text-[18px]"
+          >
+            <p>&#10003; Streamline your hiring workflow.</p>
+            <p>&#10003; Automate employee onboarding.</p>
+            <p>&#10003; Increase employee engagement.</p>
+            <p>&#10003; Simplify performance evaluations.</p>
+          </div>
+          <div class="flex gap-4">
+            <a
+              class="text-[#09a098] hover-bg-teal-50 border-2 border-[#09a098] flex w-[200px] h-[50px] items-center justify-center font-bold text-[20px] mt-12"
+              href="#"
+              >HR Templates
+              <img
+                class="h-[20px] bg-[#09a098]"
+                src="img/arrow.PNG"
+                alt="Arrow"
+            /></a>
+            <a
+              class="text-white border-2 bg-[#d85427] flex w-[159px] h-[50px] items-center justify-center font-bold text-[20px] mt-12"
+              href="#"
+              >Get Started
+            </a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section
+      class="100vh mt-72 flex items-center justify-center flex-col text-[#234652]"
+    >
+      <img class="mt-20" src="img/act-2.PNG" alt="Act--2" />
+      <h2 class="font-gilroy font-extra-bold mb-4 text-[1.953125rem]">
+        Automate with Workflow
+      </h2>
+      <h3 class="text-[1.5625rem] mb-5">
+        Power your business processes so you can work more efficiently.
+      </h3>
+      <p class="text-[18px] text-[#55727b]">
+        Whether there are one or one thousand entries daily, acting on that data
+        is vital to business
+      </p>
+      <p class="text-[18px] text-[#55727b] mb-10">
+        function. Workflow with Cognito Forms engages the right people at the
+        right time.
+      </p>
+      <div
+        class="grid grid-cols-custom text-[18px] gap-10 text-[#55727b] font-gilroy"
+      >
+        <div
+          class="flex gap-2 items-center text-[1.563rem] text-[#09a098] font-extra-bold"
+        >
+          <svg viewBox="0 0 17 17" fill="none" class="h-[30px]">
+            <g stroke="#798f8f" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14.5 14.5v-.69c0-.878-.316-1.72-.879-2.34-.562-.621-1.325-.97-2.121-.97h-6c-.796 0-1.559.349-2.121.97a3.492 3.492 0 0 0-.879 2.34v.69"
+                class="i-stroke"
+              ></path>
+              <path
+                d="M8.5 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                class="i-stroke_2"
+              ></path>
+            </g>
+          </svg>
+          <p>User Roles</p>
+        </div>
+        <div>
+          Internal and external ‘User Roles’ identify the people <br />
+          involved in your processes.
+        </div>
+        <div
+          class="flex gap-2 items-center text-[1.563rem] text-[#09a098] font-extra-bold"
+        >
+          <svg viewBox="0 0 17 17" fill="none" class="h-[30px]">
+            <path
+              d="M5.333 14.744a7 7 0 1 0-2.244-1.804C4.482 9.059 6.344 8.5 8.945 8.5h1.742M7.626 5.437 10.688 8.5m0 0-3.063 3.063"
+              stroke="#798f8f"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="i-stroke"
+            ></path>
+          </svg>
+          <p>Status + Action</p>
+        </div>
+        <div>
+          Display the data that is necessary for each status. Allow
+          <br />specific roles to perform an action and move the status along.
+        </div>
+        <div
+          class="flex gap-2 items-center text-[1.563rem] text-[#09a098] font-extra-bold"
+        >
+          <svg viewBox="0 0 17 17" fill="none" class="h-[30px]">
+            <path
+              d="M13.5 13.5H2.215c-.395 0-.715-.296-.715-.662V4.5"
+              stroke="#798f8f"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M3.5 3.245c0-.412.355-.745.792-.745H14.75c.437 0 .792.333.792.745v7.51c0 .411-.355.745-.792.745H4.292c-.437 0-.792-.334-.792-.745v-7.51Z"
+              stroke="#798f8f"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M15.5 4.5 9.5 8l-6-3.5"
+              stroke="#798f8f"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          <p>Notifications</p>
+        </div>
+        <div>
+          Email notifications keep your customers and team in the loop <br />
+          as the status changes. Automatic customized links prompt <br />
+          users to take action or review data.
+        </div>
+        <div
+          class="flex gap-2 items-center text-[1.563rem] text-[#09a098] font-extra-bold"
+        >
+          <svg viewBox="0 0 17 17" fill="none" class="h-[30px]">
+            <path
+              d="M11.65 6.75 7.1 11.3 5 9.2m10.5-.7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+              stroke="#798f8f"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="i-stroke"
+            ></path>
+          </svg>
+          <p>Tasks</p>
+        </div>
+        <div>
+          Notify your team of a required action. As the status changes, <br />
+          if there is an action needed, a task is automatically assigned.
+        </div>
+      </div>
+    </section>
+
+    <section class="h-[80vh]">
+      <h3
+        class="text-[1.953rem] text-[#234652] text-center mt-32 font-gilroy font-extra-bold mb-32 border-b-2 py-10"
+      >
+        See what others are saying
+      </h3>
+      <div class="flex justify-center gap-32">
+        <div>
+          <div class="flex justify-between">
+            <svg viewBox="0 0 48 48" fill="none" class="h-[70px]">
+              <path
+                d="M42 11.5v17.715h-8.078l3.567 12.068-12.99-12.068v-17.71L42 11.5ZM20.5 11.495v17.72h-8.15l3.567 12.068-12.99-12.068V11.5l17.573-.005Z"
+                fill="#D0EFEC"
+                class="i-fill"
+              ></path>
+              <path
+                d="M44.49 9.228v17.21h-8.983l.193.654 3.04 10.281-11.463-10.648V9.232l17.213-.004Zm-21.577 0v17.21h-8.979l.194.654 3.04 10.281L5.704 26.725V9.232l17.208-.004Z"
+                stroke="#234652"
+                stroke-width="1.021"
+                class="i-stroke"
+              ></path>
+            </svg>
+            <div class="flex gap-1">
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="text-[1.25rem] text-[#234652] font-extra-bold mb-4">
+            I was able to create a form in minutes
+          </div>
+          <div class="text-[18px] text-[#55727b] leading-normal mb-3">
+            I was able to create a form in minutes. The <br />process was simple
+            and easy to navigate. I will <br />
+            recommend others to use. Thank You
+          </div>
+          <div class="text-[.8rem] text-[#55727b]">— Kevin Sterling</div>
+        </div>
+        <div>
+          <div class="flex justify-between">
+            <svg viewBox="0 0 48 48" fill="none" class="h-[70px]">
+              <path
+                d="M42 11.5v17.715h-8.078l3.567 12.068-12.99-12.068v-17.71L42 11.5ZM20.5 11.495v17.72h-8.15l3.567 12.068-12.99-12.068V11.5l17.573-.005Z"
+                fill="#D0EFEC"
+                class="i-fill"
+              ></path>
+              <path
+                d="M44.49 9.228v17.21h-8.983l.193.654 3.04 10.281-11.463-10.648V9.232l17.213-.004Zm-21.577 0v17.21h-8.979l.194.654 3.04 10.281L5.704 26.725V9.232l17.208-.004Z"
+                stroke="#234652"
+                stroke-width="1.021"
+                class="i-stroke"
+              ></path>
+            </svg>
+            <div class="flex gap-1">
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="text-[1.25rem] text-[#234652] font-extra-bold mb-4">
+            I was able to create a form in minutes
+          </div>
+          <div class="text-[18px] text-[#55727b] leading-normal mb-3">
+            I was able to create a form in minutes. The <br />process was simple
+            and easy to navigate. I will <br />
+            recommend others to use. Thank You
+          </div>
+          <div class="text-[.8rem] text-[#55727b]">— Kevin Sterling</div>
+        </div>
+        <div>
+          <div class="flex justify-between">
+            <svg viewBox="0 0 48 48" fill="none" class="h-[70px]">
+              <path
+                d="M42 11.5v17.715h-8.078l3.567 12.068-12.99-12.068v-17.71L42 11.5ZM20.5 11.495v17.72h-8.15l3.567 12.068-12.99-12.068V11.5l17.573-.005Z"
+                fill="#D0EFEC"
+                class="i-fill"
+              ></path>
+              <path
+                d="M44.49 9.228v17.21h-8.983l.193.654 3.04 10.281-11.463-10.648V9.232l17.213-.004Zm-21.577 0v17.21h-8.979l.194.654 3.04 10.281L5.704 26.725V9.232l17.208-.004Z"
+                stroke="#234652"
+                stroke-width="1.021"
+                class="i-stroke"
+              ></path>
+            </svg>
+            <div class="flex gap-1">
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+              <svg viewBox="0 0 17 17" fill="none" class="h-[20px] w-[20px]">
+                <path
+                  d="m8.5 2.5 2.008 3.95L15 7.087l-3.25 3.072.767 4.341L8.5 12.45 4.483 14.5l.767-4.34L2 7.086l4.492-.637L8.5 2.5Z"
+                  stroke="##f9cf62"
+                  fill="#f9cf62"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="i-stroke"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="text-[1.25rem] text-[#234652] font-extra-bold mb-4">
+            I was able to create a form in minutes
+          </div>
+          <div class="text-[18px] text-[#55727b] leading-normal mb-3">
+            I was able to create a form in minutes. The <br />process was simple
+            and easy to navigate. I will <br />
+            recommend others to use. Thank You
+          </div>
+          <div class="text-[.8rem] text-[#55727b]">— Kevin Sterling</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-24 bg-[#f1fcfc] flex gap-32">
+      <div>
+        <h3
+          class="uppercase text-[1.25rem] text-[#798f8f] font-gilroy mb-6 font-extrabold"
+        >
+          Online Form Builder
+        </h3>
+        <p class="text-[2.441rem] text-[#234652] font-gilroy">
+          <span
+            class="text-[2.441rem] text-[#234652] font-gilroy font-extrabold"
+            >Simple</span
+          >
+          enough <br />for quick setup,<br />
+          <span
+            class="text-[2.441rem] text-[#234652] font-gilroy font-extrabold"
+            >customizable</span 
+          ><br />
+          for power users
+        </p>
+      </div>
+      <div class="grid grid-cols-3 items-center gap-y-10 gap-x-36">
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 48" fill="none" class="w-[70px] h-[70px]">
+            <path d="M13 21h24v12H13V21Z" fill="#D0EFEC" class="i-fill"></path>
+            <path
+              stroke="#234652"
+              d="M8.5 13.5h33v24h-33z"
+              class="i-Rectangle 16"
+            ></path>
+            <path d="M12 11V9h27v2" stroke="#234652" class="i-Line 20"></path>
+            <path d="M15 7V5h21v2" stroke="#234652" class="i-Line 21"></path>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Repeating Sections</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 48" fill="none" class="w-[70px] h-[70px]">
+            <path
+              d="M10 22h13v3H10v-3ZM10 27h13v3H10v-3ZM10 32h13v3H10v-3ZM25 22h13v3H25v-3ZM25 27h13v5H25v-5ZM27 35h9l-3 2h-3.5L27 35Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path stroke="#234652" d="M6 17.5h36" class="i-Line 9"></path>
+            <path
+              d="M31.5 37a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13Z"
+              stroke="#234652"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="i-Vector"
+            ></path>
+            <path
+              d="m42 41-6-6"
+              stroke="#234652"
+              stroke-linejoin="round"
+              class="i-Vector_2"
+            ></path>
+            <path
+              d="M26.5 39H6V9h36v24"
+              stroke="#234652"
+              stroke-linecap="square"
+              class="i-Vector 1"
+            ></path>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Data Lookups</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 48" fill="none" class="w-[70px] h-[70px]">
+            <path d="M39 24H24v15h15V24Z" fill="#D0EFEC" class="i-fill"></path>
+            <path
+              d="M42 6H6v36h36V6Z"
+              stroke="#234652"
+              stroke-miterlimit="10"
+              class="i-Vector"
+            ></path>
+            <g stroke="#234652" class="i-equals">
+              <path d="M27.15 29.4h8.1" class="i-Vector 4"></path>
+              <path d="M27.15 33.9h8.1" class="i-Vector 5"></path>
+            </g>
+            <g stroke="#234652" class="i-division">
+              <path
+                d="M31.2 13.12a.496.496 0 1 1 0 .991.496.496 0 0 1 0-.991Z"
+                class="i-Vector_2"
+              ></path>
+              <path
+                d="M31.2 19.282a.496.496 0 1 1 0 .992.496.496 0 0 1 0-.992Z"
+                class="i-Vector_3"
+              ></path>
+              <path d="M27.15 16.8h8.1" class="i-Vector 3"></path>
+            </g>
+            <g stroke="#234652" class="i-plus">
+              <path d="M17.25 26.7v8.55m0-8.55v8.55" class="i-Vector 1"></path>
+              <path
+                d="M21.525 30.975h-8.55m8.55 0h-8.55"
+                class="i-Vector 2"
+              ></path>
+            </g>
+            <g stroke="#234652" class="i-times">
+              <path
+                d="m20.273 13.552-6.046 6.046m6.046-6.046-6.046 6.046"
+                class="i-Vector 1_2"
+              ></path>
+              <path
+                d="m20.273 19.598-6.046-6.046m6.046 6.046-6.046-6.046"
+                class="i-Vector 2_2"
+              ></path>
+            </g>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Calculations</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 48" fill="none" class="w-[70px] h-[70px]">
+            <circle
+              cx="22.933"
+              cy="24.672"
+              r="12.794"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></circle>
+            <path
+              d="M23.169 4.084a20.595 20.595 0 0 1 20.15 17.57"
+              stroke="#234652"
+              class="i-Ellipse 594"
+            ></path>
+            <path
+              d="M40.992 34.603a20.595 20.595 0 0 1-28.575 7.773"
+              stroke="#234652"
+              class="i-Ellipse 597"
+            ></path>
+            <path
+              d="M4.429 33.689a20.594 20.594 0 0 1 6.682-25.865"
+              stroke="#234652"
+              class="i-Ellipse 598"
+            ></path>
+            <path
+              d="M21.166 6.538a2.554 2.554 0 1 1-.98-5.014 2.554 2.554 0 0 1 .98 5.014Z"
+              stroke="#234652"
+              class="i-Ellipse 599"
+            ></path>
+            <path
+              d="M42.81 34.515a2.555 2.555 0 1 1-.982-5.014 2.555 2.555 0 0 1 .981 5.014Z"
+              stroke="#234652"
+              class="i-Ellipse 600"
+            ></path>
+            <path
+              d="M5.75 38.102a2.554 2.554 0 1 1-.87-5.033 2.554 2.554 0 0 1 .87 5.033Z"
+              stroke="#234652"
+              class="i-Ellipse 601"
+            ></path>
+            <path
+              stroke="#234652"
+              d="M22.886 19.526v10.223"
+              class="i-Line 122"
+            ></path>
+            <path
+              stroke="#234652"
+              d="M28.077 24.652H17.854"
+              class="i-Line 123"
+            ></path>
+            <path
+              d="m6.808 7.145 4.732.477-.476 4.733"
+              stroke="#234652"
+              class="i-Rectangle 915"
+            ></path>
+            <path
+              d="m46.09 18.417-2.674 3.935-3.935-2.673"
+              stroke="#234652"
+              class="i-Rectangle 916"
+            ></path>
+            <path
+              d="m13.25 46.495-1.397-4.547 4.546-1.398"
+              stroke="#234652"
+              class="i-Rectangle 917"
+            ></path>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Integrations</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 48" fill="none" class="w-[70px] h-[70px]">
+            <rect
+              x="3.5"
+              y="26.5"
+              width="27.577"
+              height="27.577"
+              rx="1"
+              transform="rotate(-45 3.5 26.5)"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></rect>
+            <g stroke="#234652" class="i-strokes">
+              <path
+                d="M24 35.5v-8.095s4.704-4.342 9-8.405"
+                stroke-linecap="square"
+                class="i-Vector 10"
+              ></path>
+              <path
+                d="M24 27.405 16 19"
+                stroke-linecap="square"
+                class="i-Vector 11"
+              ></path>
+              <path
+                d="M4.707 23 24 3.707 43.293 23 24 42.293 4.707 23Z"
+                class="i-Rectangle 35"
+              ></path>
+              <path
+                d="M33.73 23.779v-5.583h-5.582"
+                class="i-Rectangle 37"
+              ></path>
+              <path
+                d="M20.73 18.196h-5.582v5.582"
+                class="i-Rectangle 38"
+              ></path>
+            </g>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Conditional Logic</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <svg viewBox="0 0 48 49" fill="none" class="w-[70px] h-[70px]">
+            <path
+              d="M19.368 8.633c-5.529 1.455-9.399.857-11.71-.126a2.147 2.147 0 0 0-.104.663v7.444c0 1.186.961 2.148 2.148 2.148h22.555a2.148 2.148 0 0 0 2.148-2.148V9.17c0-.138-.013-.273-.038-.404-3.93-.987-9.456-1.592-14.999-.133ZM23.665 30.651h-5.37v13.963h5.37V30.65Z"
+              fill="#D0EFEC"
+            ></path>
+            <path
+              d="M35.926 10.87V7.648A2.148 2.148 0 0 0 33.778 5.5H11.222a2.148 2.148 0 0 0-2.148 2.148v6.444c0 1.187.962 2.149 2.148 2.149h22.556a2.148 2.148 0 0 0 2.148-2.149V10.87Zm0 0h3.222V20L22.5 24.296v4.833m0 0h-2.685v13.963h5.37V29.13H22.5Z"
+              stroke="#234652"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          <p class="font-bold text-[18px] font-sans">Custom Themes</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-[100vh] p-20">
+      <div class="flex p-7 gap-16 items-center">
+        <img
+          class="w-[350px] h-[350px] rounded-full"
+          src="img/home-data.df4cf17e902ea983ff2accabddd37520.jpg"
+          alt=""
+        />
+        <div">
+        <h2
+          class="text-[1.953125rem] font-gilroy text-[#234652] font-extrabold mb-5"
+        >
+          Accurate and actionable data, every time
+        </h2>
+        <p class="text-[1.5625rem] font-gilroy font-[400] mb-5">
+          Struggling with incomplete, outdated, or inconsistent data?
+        </p>
+        <p class="text-[1.25rem] font-gilroy text-[#55727b]">
+          Don’t wait for the budget, developers, or IT to develop a custom
+          solution. Take charge and build a no- <br />
+          code solution that is as unique as your processes and harness the flow
+          of information.
+        </p>
+        <a
+          class="text-white border-2 bg-[#d85427] flex w-[170px] h-[60px] items-center justify-center font-bold text-[20px] mt-12"
+          href="#"
+          >Get Started
+        </a>
+      </div>
+    </section>
+
+    <section
+      class="py-9 flex gap-16 justify-center h-[200px] border-2 border-r-0 border-l-0 border-navColor"
+    >
+      <div class="flex gap-2 items-center">
+        <svg
+          viewBox="0 0 48 48"
+          fill="none"
+          class="w-[100px] h-[200px] mt-[10px]"
+        >
+          <circle cx="22" cy="34" r="6" fill="#D0EFEC" class="i-fill"></circle>
+          <circle
+            cx="23.5"
+            cy="31.5"
+            r="13"
+            stroke="#234652"
+            class="i-Ellipse 10"
+          ></circle>
+          <circle
+            cx="23.5"
+            cy="31.5"
+            r="5"
+            stroke="#234652"
+            class="i-Ellipse 11"
+          ></circle>
+          <path
+            d="M16 21v-9.5a7.5 7.5 0 0 1 15 0V21"
+            stroke="#234652"
+            class="i-Rectangle 18"
+          ></path>
+          <path
+            d="M19 19v-7.5a4.5 4.5 0 1 1 9 0V19"
+            stroke="#234652"
+            class="i-Rectangle 19"
+          ></path>
+          <circle
+            cx="23.5"
+            cy="31.5"
+            r="9"
+            stroke="#234652"
+            stroke-dasharray="1 6"
+            class="i-Ellipse 13"
+          ></circle>
+        </svg>
+        <div class="items-center">
+          <h2 class="text-[1.563rem] text-[#09a098] font-[800] mb-5">
+            Security
+          </h2>
+          <ul class="text-[#234652] text-[18px]">
+            <li class="mb-3">&#10003; Single Sign-On</li>
+            <li class="mb-3">&#10003; Two Factor Authentication</li>
+            <li>&#10003; Data Encryption & Privacy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex gap-2 items-center">
+        <svg
+          viewBox="0 0 48 48"
+          fill="none"
+          class="w-[100px] h-[200px] mt-[10px]"
+        >
+          <path
+            d="M16.68 30.195a7.414 7.414 0 0 1-1.58-3.104L4.623 29.789c.323 1.434.839 2.84 1.559 4.189A16.684 16.684 0 0 0 8.53 37.32l8.15-7.125ZM29.799 23.834a8.65 8.65 0 0 0-1.015-3.61l9.371-5.297a19.414 19.414 0 0 1 1.782 4.46c.38 1.451.586 2.907.63 4.345l-10.768.102ZM29.288 32.181a7.826 7.826 0 0 1-3.16 1.467l2.05 10.056a17.574 17.574 0 0 0 4.231-1.428 17.595 17.595 0 0 0 3.44-2.195l-6.56-7.9ZM21.455 14.073a8.446 8.446 0 0 0-3.259 1.855l-7.518-8.042a18.973 18.973 0 0 1 3.894-2.815 18.99 18.99 0 0 1 4.07-1.647l2.813 10.65Z"
+            fill="#D0EFEC"
+            class="i-fill"
+          ></path>
+          <path
+            d="m9.416 35.186 8.689-7.02m12.34-9.573 8.036-7.023M5.632 26.5l10.533-1.941m15.824-2.384 10.82-2.145M12.2 8.59l7.02 8.689m9.617 12.248 6.978 8.128M20.884 4.806l2.173 10.713m2.254 15.844 2.044 10.62m13.964-26.538c4.424 9.515.296 20.815-9.219 25.239-9.515 4.423-20.815.296-25.239-9.22-4.424-9.515-.296-20.815 9.22-25.239 9.515-4.423 20.814-.296 25.238 9.22Zm-9.975 4.637a8 8 0 1 1-14.508 6.745 8 8 0 0 1 14.509-6.745Z"
+            stroke="#234652"
+            class="i-stroke"
+          ></path>
+        </svg>
+        <div class="items-center">
+          <h2 class="text-[1.563rem] text-[#09a098] font-[800] mb-5">
+            Support
+          </h2>
+          <ul class="text-[#234652] text-[18px]">
+            <li>&#10003; Helpful and skilled support answers every ticket</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex gap-2 items-center">
+        <svg
+          viewBox="0 0 48 48"
+          fill="none"
+          class="w-[100px] h-[200px] mt-[10px]"
+        >
+          <path
+            d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+            fill="#D0EFEC"
+            class="i-fill"
+          ></path>
+          <path
+            d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+            stroke="#234652"
+            class="i-rod"
+          ></path>
+          <path
+            d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+            stroke="#234652"
+            class="i-snake"
+          ></path>
+        </svg>
+        <div class="items-center mb-10">
+          <h2 class="text-[1.563rem] text-[#09a098] font-[800] mt-3 mb-5">
+            Compliance
+          </h2>
+          <ul class="text-[#234652] text-[18px]">
+            <li class="mb-3">&#10003; GDPR</li>
+            <li class="mb-3">&#10003; HIPAA</li>
+            <li>&#10003; CCPA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2
+        class="text-[3.052rem] font-[800] text-[#09a098] font-gilroy leading-4 mt-60 text-center"
+      >
+        Solutions as unique as your work
+      </h2>
+      <p class="text-[1.953rem] text-[#55727b] text-center mt-14 font-gilroy">
+        Build powerful online forms and customize workflows for your <br />
+        unique team and customers.
+      </p>
+      <div class="p-24 grid grid-cols-3 gap-4 items-center">
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+        <div class="grid grid-cols-grid p-8 bg-[#D0EFEC]">
+          <h1 class="text-[22px] font-[800] text-[#234652] flex items-end mb-4">
+            Nonprofits
+          </h1>
+          <p class="text-[22px] text-[#234652] col-start-1 row-start-2">
+            Streamline operations and reduce maual tasks, allowing you to focus
+            on impactful work in the community
+          </p>
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            class="w-[100px] h-[200px] mt-[10px] col-start-2 row-span-2"
+          >
+            <path
+              d="M31.446 5.222H16.554v11.332H5.222v14.892h11.332v11.332h14.892V31.446h11.332V16.554H31.446V5.222Z"
+              fill="#D0EFEC"
+              class="i-fill"
+            ></path>
+            <path
+              d="M21.595 13.682a2.5 2.5 0 0 1 2.497-2.612h.11a2.5 2.5 0 0 1 2.497 2.612l-1.4 31.331a1.153 1.153 0 0 1-2.304 0l-1.4-31.331Zm5.574-7.956a3.137 3.137 0 1 1-6.274 0 3.137 3.137 0 0 1 6.274 0Z"
+              stroke="#234652"
+              class="i-rod"
+            ></path>
+            <path
+              d="M28.118 21.025h3.933c2.6.194 3.012 3.094.533 3.749L16.8 28.942c-2.685.709-1.912 3.897.91 3.753h2.959m-.465-11.192h-4.177c-3.421.175-4.36-3.687-1.114-4.553l.013-.003c.214-.054 13.17-3.333 16.182-4.121 3.038-.794 3.438-3.101 1.28-4.765M27.473 32.64h2.5c1.868.139 2.163 2.22.383 2.691l-11.33 2.992c-1.928.51-1.373 2.798.653 2.694h1.219"
+              stroke="#234652"
+              class="i-snake"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <a
+          class="text-[#09a098] hover-bg-teal-50 border-2 border-[#09a098] flex w-[300px] h-[50px] items-center justify-center font-[800] text-[20px] mt-[-50px]"
+          href="#"
+          >Explore More Industries
+          <img class="h-[20px] bg-[#09a098]" src="img/arrow.PNG" alt="Arrow"
+        /></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex items-center justify-center mt-36 gap-10 mb-20">
+        <img
+          class="w-auto h-[120px]"
+          src="img/onlineformbuilder-leader-small-business-leader-98aea988-415f-45b6-aeb0-ed56d1965178-4f2b9a7-770x1000.png"
+          alt="Small Businesss"
+        />
+        <img src="img/leader.PNG" alt="Leader" />
+        <img
+          src="img/users-love-us-780e87f7-8190-42f3-99c6-da4e9c3ad2c1-c88b993-94x122.svg"
+          alt="Love Us"
+        />
+      </div>
+      <h3
+        class="font-[400] text-[#234652] text-[1.5625rem] mb-24 text-center leading-normal font-gilroy tracking-wider"
+      >
+        Integration with the apps you already use.
+      </h3>
+      <div class="flex justify-center items-center">
+        <div
+          class="flex items-center gap-24 justify-center animate-move-right-to-leeft"
+        >
+          <img
+            class="w-auto h-[60px]"
+            src="img/paypal-small.9663b2b676517dc580132b231549c883.svg"
+            alt="Paypal"
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/google-maps.a9c5f170d47eff2cb7d7a203e48afcfd.svg"
+            alt="google-maps"
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/stripe-small.6a13ee6c30f3edb21249bcd92018730f.svg"
+            alt="stripe-small"
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/venmo-small.2e0fa1ea747b48c512cb59e4b2987a40.svg"
+            alt="venmo-small"
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/google-analytics-icon.6a1279bcae585197af2a74d2c40cdcb4.svg"
+            alt=""
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/zapier-icon.322607bc8b7636b74b2a5832ec6eef62.svg"
+            alt=""
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/square-small.aade390024d86bd9170f6ddf781725c4.svg"
+            alt=""
+          />
+          <img
+            class="w-auto h-[60px]"
+            src="img/powerautomate.475132a2728c958139ed7128f92a92be.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <a
+          class="text-white flex bg-[#d85427] w-[320px] h-[60px] items-center justify-center font-bold text-[25px] mt-28 mb-28"
+          href="#"
+          >Sign Up For Free</a
+        >
+      </div>
+    </section>
+
+    <footer class="bg-[#234652] p-8"> 
+      <div class="flex">
+        <div class="p-8">
+          <h3
+            class="text-[1.25rem] text-[#92b8b8] font-[800] py-4 font-gilroy tracking-wide border-b-2 mb-3"
+          >
+            Company
+          </h3>
+          <ul class="text-white leading-normal">
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">About</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Careers</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Newsroom</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Referral Program</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Write Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="p-8">
+          <h3
+            class="text-[1.25rem] text-[#92b8b8] font-[800] font-gilroy tracking-wide border-b-2 mb-3 py-4"
+          >
+            Support
+          </h3>
+          <ul class="text-white leading-normal cursor-pointer">
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">User Guides</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Blogs</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Requeest Help</a>
+            </li>
+            <li class="mb-3 text-[18px]">
+              <a class="hover:underline" href="#">Status</a>
+            </li>
+          </ul>
+        </div>
+        <div class="p-8">
+          <h3
+            class="text-[1.25rem] text-[#92b8b8] font-[800] font-gilroy tracking-wide border-b-2 mb-3 py-4"
+          >
+            Industries
+          </h3>
+          <div class="flex gap-16">
+            <ul class="text-white leading-normal">
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#"
+                  >Accounting & Financial <br />
+                  Services</a
+                >
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#"
+                  >Churches & Religious <br />
+                  Organizations</a
+                >
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Education</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Government</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Healthcare</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#"
+                  >Home Maintenance & <br />Repair</a
+                >
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Human Resources</a>
+              </li>
+            </ul>
+            <ul class="text-white leading-normal">
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Information Technology</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#"
+                  >Law Firms & Legal Services</a
+                >
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Manufacturing</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Marketing & Advertising</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Travel & Hospitality</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Real Estate</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Restaurants & Catering</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Retail & Sales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-8">
+          <h3
+            class="text-[1.25rem] text-[#92b8b8] font-[800] font-gilroy tracking-wide border-b-2 mb-3 py-4"
+          >
+            Templates
+          </h3>
+          <div class="flex gap-16">
+            <ul class="text-white leading-normal">
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Application Forms</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Contact Forms</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Customer Service Forms</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Order Forms</a>
+              </li>
+            </ul>
+            <ul class="text-white p-4 leading-normal">
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Registration Forms</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Groups & Events</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Reporting Forms</a>
+              </li>
+              <li class="mb-3 text-[18px]">
+                <a class="hover:underline" href="#">Survey Forms & Quizzes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <aside class="flex gap-11 p-8">
+        <svg viewBox="0 0 18 18" fill="none" class="h-[20px] w-[20px]">
+          <g class="i-facebook_2">
+            <path
+              d="M17.25 9a8.25 8.25 0 1 0-9.54 8.15v-5.765H5.617V9h2.095V7.182c0-2.067 1.232-3.21 3.116-3.21.902 0 1.847.162 1.847.162v2.03h-1.04c-1.025 0-1.345.636-1.345 1.29V9h2.288l-.366 2.385H10.29v5.765A8.252 8.252 0 0 0 17.25 9Z"
+              fill="#798f8f"
+              class="i-Vector"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 18 18" fill="none" class="h-[20px] w-[20px]">
+          <path
+            d="m10.412 7.864 5.524-6.284h-1.309L9.83 7.036 6 1.58H1.58l5.794 8.25-5.794 6.59h1.31l5.065-5.762L12 16.42h4.419l-6.008-8.556Zm-1.793 2.04-.587-.822L3.36 2.544h2.01l3.77 5.276.587.822 4.9 6.857h-2.011L8.619 9.903Z"
+            fill="#798f8f"
+          ></path>
+        </svg>
+        <svg viewBox="0 0 18 18" fill="none" class="h-[20px] w-[20px]">
+          <g class="i-linkedin_2">
+            <path
+              d="M3.536 14.354H5.92V7.199H3.536v7.155Zm2.541-9.359a1.234 1.234 0 0 0-1.32-1.24 1.24 1.24 0 1 0-.046 2.474 1.247 1.247 0 0 0 1.366-1.234Zm6.033 9.359h2.382v-4.099c0-2.198-1.174-3.22-2.745-3.22a2.336 2.336 0 0 0-2.152 1.207V7.2H7.232v7.155h2.383v-4a1.558 1.558 0 0 1 .073-.574 1.32 1.32 0 0 1 1.22-.871c.859 0 1.202.66 1.202 1.623v3.822ZM16.934 4.05v9.9a2.976 2.976 0 0 1-2.97 2.97H4.051a2.976 2.976 0 0 1-2.957-2.97v-9.9a2.977 2.977 0 0 1 2.957-2.957h9.9a2.977 2.977 0 0 1 2.983 2.957Z"
+              fill="#798f8f"
+              class="i-Vector"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 18 18" fill="none" class="h-[20px] w-[20px]">
+          <g class="i-youtube_2">
+            <path
+              d="m7.173 11.11 4.27-2.201-4.27-2.235v4.437ZM8.77 3.507c3.33 0 5.531.161 5.531.161a2.273 2.273 0 0 1 1.59.644c.374.444.599.993.645 1.571.104.855.158 1.715.16 2.576v1.204a21.698 21.698 0 0 1-.16 2.576 2.853 2.853 0 0 1-.644 1.57 2.24 2.24 0 0 1-1.59.645s-2.203.167-5.532.167c-4.108-.032-5.37-.154-5.37-.154-.64 0-1.258-.229-1.745-.644a2.827 2.827 0 0 1-.644-1.571 20.902 20.902 0 0 1-.154-2.576v-1.21c-.002-.861.05-1.722.154-2.576.045-.578.27-1.128.644-1.571a2.26 2.26 0 0 1 1.584-.644s2.209-.155 5.531-.155v-.013Z"
+              fill="#798f8f"
+              class="i-Vector"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 18 18" fill="none" class="h-[20px] w-[20px]">
+          <g fill="#798f8f" class="i-instagram_2">
+            <path
+              d="M8.786 2.301c2.112 0 2.363 0 3.219.045.502.008.998.102 1.468.277.343.127.654.33.908.593.263.254.466.564.592.908.176.47.27.966.277 1.468.033.83.045 1.082.045 3.22 0 2.137 0 2.362-.045 3.219a4.379 4.379 0 0 1-.277 1.468 2.634 2.634 0 0 1-1.5 1.5c-.47.176-.966.27-1.468.277-.83.032-1.082.045-3.22.045-2.137 0-2.363 0-3.219-.045A4.379 4.379 0 0 1 4.098 15a2.44 2.44 0 0 1-.908-.592 2.44 2.44 0 0 1-.592-.908 4.379 4.379 0 0 1-.277-1.468c0-.83-.045-1.082-.045-3.22 0-2.137 0-2.363.045-3.22.007-.5.1-.997.277-1.467a2.44 2.44 0 0 1 .592-.908 2.44 2.44 0 0 1 .908-.593 4.379 4.379 0 0 1 1.494-.277c.83 0 1.082-.045 3.22-.045h-.026ZM8.81.878c-2.144 0-2.414 0-3.258.045a5.673 5.673 0 0 0-1.932.374 3.863 3.863 0 0 0-1.416.908 3.863 3.863 0 0 0-.908 1.404A5.673 5.673 0 0 0 .923 5.54C.891 6.37.878 6.641.878 8.786c0 2.144 0 2.414.045 3.258.011.66.138 1.314.374 1.931.197.529.506 1.008.908 1.404.396.402.875.711 1.404.908a5.676 5.676 0 0 0 1.931.373c.844.033 1.114.046 3.258.046 2.145 0 2.415 0 3.258-.046a5.676 5.676 0 0 0 1.932-.373 3.987 3.987 0 0 0 2.312-2.312 5.674 5.674 0 0 0 .373-1.931c.033-.844.045-1.114.045-3.258 0-2.145 0-2.415-.045-3.259a5.673 5.673 0 0 0-.373-1.931 3.865 3.865 0 0 0-2.338-2.3 5.673 5.673 0 0 0-1.931-.373C11.2.891 10.93.878 8.786.878h.025Z"
+              class="i-Vector"
+            ></path>
+            <path
+              d="M8.786 4.723a4.063 4.063 0 1 0 4.063 4.063 4.07 4.07 0 0 0-4.063-4.063Zm0 6.696a2.634 2.634 0 1 1 0-5.268 2.634 2.634 0 0 1 0 5.268Z"
+              class="i-Vector_2"
+            ></path>
+            <path
+              d="M13.003 5.514a.947.947 0 1 0 0-1.893.947.947 0 0 0 0 1.893Z"
+              class="i-Vector_3"
+            ></path>
+          </g>
+        </svg>
+      </aside>
+      <aside class="p-8 flex flex-col justify-start items-end">
+        <ul class="text-white flex gap-4 mb-4">
+          <li><a class="hover:underline" href="#">Terms of Service</a></li>
+          <li><a class="hover:underline" href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="text-white">
+          Copyright © 2024 Cognito LLC, All rights reserved. <br />
+        </p>
+        <p class="text-white">
+          Part of the Cognito Apps<sup>SM</sup> family of products.
+        </p>
+      </aside>
+    </footer>
+  </body>
+</html>
